@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pertemuanListDosenFragment"
+        android:icon="@drawable/ic_list"
+        android:title="Kelola Pertemuan" />
+
+    <item
+        android:id="@+id/statusPertemuanDosenFragment"
+        android:icon="@drawable/ic_status"
+        android:title="Status Mahasiswa" />
+</menu>

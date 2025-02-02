@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PPK Learn</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="nidn">NIDN</string>
+    <string name="nim">NIM</string>
+    <string name="kelas">Kelas</string>
+    <string name="dosen">Dosen</string>
+    <string name="mahasiswa">Mahasiswa</string>
+    <string name="update_status">Update Status</string>
+    <string name="change_password">Ganti Password</string>
+    <string name="old_password">Password Lama</string>
+    <string name="new_password">Password Baru</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="add_pertemuan">Tambah Pertemuan</string>
+    <string name="edit_pertemuan">Edit Pertemuan</string>
+    <string name="delete_pertemuan">Hapus Pertemuan</string>
+    <string name="delete_confirmation">Apakah Anda yakin ingin menghapus pertemuan ini?</string>
+    <string name="operation_successful">Operasi berhasil</string>
+    <string name="delete">Hapus</string>
+    <string name="choose_pertemuan">Pilih Pertemuan</string>
+    <string name="update_score">Update Skor</string>
+    <string name="logout_confirmation">Apakah Anda yakin ingin keluar?</string>
+    <string name="logout">Keluar</string>
+    <string name="status_materi">Status Materi</string>
+    <string name="praktikum">Praktikum</string>
+    <string name="kuis">Kuis</string>
+
+    <array name="status_options">
+        <item>Belum</item>
+        <item>Sudah</item>
+    </array>
+</resources>

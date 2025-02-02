@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Status Pertemuan"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etLinkPraktikum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Link Pengerjaan Praktikum"
+            android:inputType="textUri"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status Materi"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgStatusMateri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rbStatusMateriBelum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Belum"/>
+        <RadioButton
+            android:id="@+id/rbStatusMateriSudah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status Pengumpulan"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgStatusPengumpulan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rbStatusPengumpulanBelum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Belum"/>
+        <RadioButton
+            android:id="@+id/rbStatusPengumpulanSudah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status Kuis"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgStatusKuis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rbStatusKuisBelum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Belum"/>
+        <RadioButton
+            android:id="@+id/rbStatusKuisSudah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah"/>
+    </RadioGroup>
+</LinearLayout>

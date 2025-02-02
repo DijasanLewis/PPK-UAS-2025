@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pertemuanListFragment">
+
+    <!-- Fragments for Students -->
+    <fragment
+        android:id="@+id/pertemuanListFragment"
+        android:name="com.example.pembelajaranmandirippk2025.ui.fragment.PertemuanListFragment"
+        android:label="Daftar Pertemuan">
+        <action
+            android:id="@+id/action_pertemuanList_to_statusPertemuan"
+            app:destination="@id/statusPertemuanFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statusPertemuanFragment"
+        android:name="com.example.pembelajaranmandirippk2025.ui.fragment.StatusPertemuanFragment"
+        android:label="Status Pertemuan">
+        <argument
+            android:name="pertemuanId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+    <!-- Fragments for Teachers -->
+    <fragment
+        android:id="@+id/pertemuanListDosenFragment"
+        android:name="com.example.pembelajaranmandirippk2025.ui.fragment.PertemuanListDosenFragment"
+        android:label="Kelola Pertemuan">
+        <action
+            android:id="@+id/action_pertemuanListDosen_to_statusPertemuanDosen"
+            app:destination="@id/statusPertemuanDosenFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statusPertemuanDosenFragment"
+        android:name="com.example.pembelajaranmandirippk2025.ui.fragment.StatusPertemuanDosenFragment"
+        android:label="Status Mahasiswa">
+        <argument
+            android:name="pertemuanId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+</navigation>
