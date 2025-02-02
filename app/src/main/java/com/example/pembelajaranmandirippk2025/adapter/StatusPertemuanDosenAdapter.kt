@@ -37,7 +37,7 @@ class StatusPertemuanDosenAdapter(
 
         fun bind(status: StatusPertemuanDTO) {
             binding.apply {
-                tvNamaMahasiswa.text = "Mahasiswa ID: ${status.id}"
+                tvNamaMahasiswa.text = "Nama: ${status.namaLengkapMahasiswa}"
 
                 // Status dengan warna yang sesuai
                 tvStatusMateri.apply {

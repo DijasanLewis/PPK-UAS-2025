@@ -4,6 +4,8 @@ import java.time.LocalDateTime
 
 data class StatusPertemuanDTO(
     val id: Long? = null,
+    val mahasiswaId: Long,
+    val namaLengkapMahasiswa: String,
     val pertemuanId: Long,
     val statusMateri: String,
     val linkPengerjaanPraktikum: String? = null,
